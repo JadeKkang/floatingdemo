@@ -1,23 +1,25 @@
 # 效果展示
 ![](https://github.com/JadeKkang/floatingdemo/blob/master/image/floating.gif)
 # 使用
-1.在项目gradle中添加<br>  
-allprojects {<br> 
-repositories {<br> 
-...<br> 
-maven { url 'https://jitpack.io' }<br> 
-}<br> 
-}<br> 
-2.添加依赖<br> 
- {'com.github.JadeKkang:floatingdemo:v1.0'}<br> 
-3.xml中使用<br> 
-<com.example.floating.FloatingIv<br> 
-        android:id="@+id/fi"<br> 
-        android:layout_width="100dp"<br> 
-        android:layout_height="match_parent"<br> 
-        android:layout_marginTop="20dp"<br> 
-        android:layout_marginBottom="20dp"><br> 
-    </com.example.floating.FloatingIv><br> 
+    1.在项目gradle中添加
+      allprojects {
+         repositories {
+             ...
+             maven { url 'https://jitpack.io' }
+         } 
+      }
+    2.添加依赖 
+      {
+        'com.github.JadeKkang:floatingdemo:v1.0'
+      }
+    3.xml中使用 
+    <com.example.floating.FloatingIv 
+        android:id="@+id/fi" 
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"> 
+    </com.example.floating.FloatingIv> 
 
 # 预留方法
 
