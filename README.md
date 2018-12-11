@@ -10,7 +10,7 @@
       }
     2.添加依赖 
       {
-        'com.github.JadeKkang:floatingdemo:v1.0'
+        'com.github.JadeKkang:floatingdemo:v1.0.1'
       }
     3.xml中使用 
     <com.example.floating.FloatingIv 
